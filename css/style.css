@@ -1,0 +1,194 @@
+a:visited {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    width: 523px;
+    height: 72px;
+    color: #000;
+
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px; 
+
+    border-radius: 20px;
+    background: #b33737;
+}
+
+.header {
+    width: 100%;
+    height: 130px;
+    background: #343434;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: sticky;
+}
+
+.logo {
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 210px;
+    margin-right: 210px;
+}
+
+.header__nav {
+    display: flex;
+}
+
+.header__img {
+    margin-right: 10px;
+}
+
+.header__nav__block {
+    display: flex;
+    margin-right: 60px;
+    align-items: center;
+}
+
+.nav__text {
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main {
+
+    display: flex;    
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+.logo__text {
+    color: #000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-top: 90px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.gallery {
+    width: 80%;
+    height: 490px;
+    background-color: #D9D9D9;
+
+    display: flex;
+    margin-left: 10%;
+}
+
+.test__price {
+    width: 390px;
+    height: 280px;
+    background: #D9D9D9;
+}
+
+.main__block {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 80%;
+    margin-left: 10%;
+
+    align-self: center;
+}
+
+.block__price {
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.new__order {
+    width: 100%;
+    text-align: center;
+
+    color: #000;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 450px;
+    background: #343434;
+
+    color: #fff;
+    position: relative;
+    bottom: 0;
+}
+
+.footer__block {
+    display: flex;
+    flex-direction: row;
+
+    width: 80%;
+    margin-left: 10%;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+
+    width: 400px;
+    margin-right: 200px;
+}
+
+.addres {
+    display: flex;
+    flex-direction: column;
+
+    width: 400px;
+    margin-right: 200px;
+
+
+
+}
+
+.soc__link {
+    display: flex;
+    flex-direction: row;
+
+    width: 400px;
+    margin-right: 200px;
+
+}
+
+.soc__link__svg {
+    margin-left: 10%;
+    margin-right: 10%;
+}
