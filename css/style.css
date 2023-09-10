@@ -1,0 +1,604 @@
+/* a:visited {
+    color: #fff;
+} */
+
+body {
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+}
+/* 
+input {
+    width: 30px;
+    height: 30px;
+    border-radius: 45px;
+} */
+
+.btn {
+    width: 523px;
+    height: 72px;
+    color: #000;
+
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px; 
+
+    border-radius: 20px;
+    background: #b33737;
+}
+
+.header {
+    width: 100%;
+    height: 130px;
+    background: #343434;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: sticky;
+    z-index: 5;
+}
+
+.logo {
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 210px;
+    margin-right: 210px;
+}
+
+.header__nav {
+    display: flex;
+}
+
+.header__img {
+    margin-right: 10px;
+}
+
+.header__nav__block {
+    display: flex;
+    margin-right: 60px;
+    align-items: center;
+}
+
+.nav__text {
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* main - main */
+
+.main {
+
+    display: flex;    
+    justify-content: center;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo__text {
+    color: #000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-top: 90px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.gallery {
+    width: 80%;
+    height: 490px;
+    background-color: #D9D9D9;
+
+    display: flex;
+    /* margin-left: 10%; */
+}
+
+.test__price {
+    width: 390px;
+    height: 280px;
+    background: #D9D9D9;
+}
+
+.main__block {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 80%;
+    /* margin-left: 10%; */
+
+    align-self: center;
+    justify-content: space-between;
+}
+
+.block__price {
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.new__order {
+    width: 100%;
+    text-align: center;
+
+    color: #000;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px; 
+}
+
+.btn__ofor {
+    width: 480px;
+    height: 100px;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #000;
+
+    border-radius: 20px;
+    background: #D9D9D9;
+    border: 1px solid #bdbdbd;
+}
+
+
+
+
+
+
+
+
+/* footer */
+
+
+
+.footer{
+    width: 100%;
+    height: auto;
+    background: #343434;
+
+    color: #fff;
+    position: relative;
+    bottom: 0;
+}
+
+.footer__block {
+    display: flex;
+    flex-direction: row;
+
+    width: 80%;
+    margin-left: 10%;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+
+    width: 400px;
+    /* margin-right: 200px; */
+}
+
+.img > img {
+    width: 20px;
+    height: 30px;
+}
+
+.img > p {
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.addres {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    width: 400px;
+    margin-right: 200px;
+}
+
+.addres > p {
+    margin-top: 50px;
+
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.soc__link {
+    display: flex;
+    /* flex-direction: row; */
+
+    width: 340px;
+    /* margin-right: 200px; */
+    flex-wrap: wrap;
+    align-content: end;
+    justify-content: space-between;
+}
+
+.soc__link > p {
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.soc__link__svg {
+    /* margin-left: 10%; */
+    /* margin-right: 10%; */
+
+    width: 40px;
+    height: 40px;
+}
+
+/* О нас */
+
+
+.about__main {
+    display: flex;
+
+    width: 80%;
+    margin-left: 10%;
+    flex-wrap: wrap;
+}
+
+.about {
+    font-size: 55px;
+}
+
+.about__text {
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Корзина */
+
+.basket__main {
+    
+}
+
+.basket__name {
+    color: #000;
+    font-size: 61px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+
+
+/* Профиль */
+
+.profile__main {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile__nav__block {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #D9D9D9;
+    width: 570px;
+    height: auto;
+
+    padding: 40px;
+}
+
+.avatar {
+    margin-bottom: 20px;
+}
+
+.profile__nav__block__elem {
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.profile__nav__block__elem > div {
+    margin-bottom: 20px;
+}
+
+.popup {
+
+}
+
+
+.name {
+    
+}
+
+.rename {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    width: 700px;
+    height: 500px;
+    border-radius: 30px;
+    background-color: #c22525;
+
+    position: absolute;
+
+    overflow: none;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 6;
+}
+
+.email {
+
+}
+
+.phone {
+
+}
+
+.password {
+
+}
+
+.my__review {
+
+}
+
+.purchase__history {
+
+}
+
+.exit {
+
+}
+
+.pen {
+    width: 32px;
+    height: 32px;
+}
+
+.profile__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile__content > p {
+    color: #000;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+
+    margin-top: 20px;
+}
+
+.discounts__block {
+    display: flex;
+    flex-direction: column;
+
+    width: 90%;
+    margin-left: 60px;
+    margin-bottom: 60px;
+}
+
+.discounts__block > div {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.discounts__name {
+    color: #000;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.discounts__image {
+    width: 100%;
+    height: auto;
+}
+
+.discounts__text {
+    color: #000;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+
+/* История покупок */
+
+.history__main {
+
+}
+
+.history__main > p {
+    color: #000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    text-align: center;
+}
+
+.all__history {
+    display: flex;
+    flex-direction: column;
+
+    padding: 10%;
+}
+
+.history__block {
+    display: flex;
+    flex-direction: row;
+}
+
+.history__image__block {
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-right: 50px;
+}
+
+.history__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.history__image {
+    width: 480px;
+    height: 310px;
+}
+
+
+.history__name {
+    color: #000;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.history__data {
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.additional__services {
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.history__star {
+
+}
+
+.star {
+
+}
+
+/* праздник */
+
+.holiday__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 80%;
+    margin-left: 10%;
+}
+
+.holiday__main > p {
+    color: #000;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    text-align: center;
+}
+
+.holiday__info {
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px; 
+}
+
+.calendar__block {
+    width: 100%;
+}
+
+.auto-jsCalendar {
+
+}
+
+.material-theme {
+
+}
+
+.red {
+
+}
+
+.additional {
+    display: flex;
+}
+
+.additional__block {
+    color: #000;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.price {
+    color: #000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; 
+}
+
+.additional__name {
+    margin-right: 20px;
+}
+
+.additional__price {
+    margin-right: 20px;
+}
+
+.additional__inp {
+    margin-right: 20px;
+}
+
+.price {
+    margin-top: 100px;
+}
+

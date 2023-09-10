@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <title>Profile</title>
+</head>
+
+<body>
+    <Header class="header">
+        <a href="../index.html">
+            <div class="logo">
+                My Happy Day
+            </div>
+        </a>
+        <div class="header__nav">
+            <a href="ya.ru">
+                <div class="header__nav__block">
+                    <img src="../img/header/basket.svg" alt="#" class="header__img">
+                    <p class="nav__text">Корзина</p>
+                </div>
+            </a>
+            <a href="ya.ru">
+                <div class="header__nav__block">
+                    <img src="../img/header/profile.svg" alt="#" class="header__img">
+                    <p class="nav__text">Профиль</p>
+                </div>
+            </a>
+        </div>
+    </Header>
+    <div class="profile__main">
+        <div class="profile__nav__block">
+            <div class="avatar">
+                <img src="../img/profile/profile__icon.png" alt="avatar">
+            </div>
+            <div class="profile__nav__block__elem">
+                <div class="name">
+                    Тимур
+                    
+                    <a data-bs-toggle="modal" data-bs-target="#rename">
+                        <img src="../img/profile/pen.png" alt="редактировать" class="pen">
+                    </a>
+
+                    <div class="modal fade" id="rename" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Смена имени</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close">
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <input type="text" placeholder="Новое имя">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">сохранить</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="email">
+                    timober@yandex.ru
+
+                    <a data-bs-toggle="modal" data-bs-target="#reemail">
+                        <img src="../img/profile/pen.png" alt="редактировать" class="pen">
+                    </a>
+
+                    <div class="modal fade" id="reemail" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Смена почты</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close">
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <input type="text" placeholder="Новая почта">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">сохранить</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="phone">
+                    +7(903)972-34-23
+                    <a data-bs-toggle="modal" data-bs-target="#rephone">
+                        <img src="../img/profile/pen.png" alt="редактировать" class="pen">
+                    </a>
+
+                    <div class="modal fade" id="rephone" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Смена телефона</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close">
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <input type="text" placeholder="Новый телефон">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">сохранить</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="password">
+                    Пароль
+                    <a data-bs-toggle="modal" data-bs-target="#repass">
+                        <img src="../img/profile/pen.png" alt="редактировать" class="pen">
+                    </a>
+
+                    <div class="modal fade" id="repass" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Смена пароля</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close">
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <input type="text" placeholder="Новый пароль">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">сохранить</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <a href="">
+                    <div class="my__review">Мои отзывы</div>
+                </a>
+                <a href="history.html">
+                    <div class="purchase__history">История покупок</div>
+                </a>
+                <a href="">
+                    <div class="exit">Выход</div>
+                </a>
+            </div>
+        </div>
+        <div class="profile__content">
+            <p>Скидки для вас</p>
+
+            <!-- Discounts - скидка -->
+            <div class="discounts__block">
+                <div class="discounts__name">Корпоратив</div>
+                <img src="../img/profile/profile__fon.png" alt="картинка праздника" class="discounts__image">
+                <div class="discounts__text">При проведении копроратива от 15 человек и более предоставляется скидка на
+                    10%</div>
+            </div>
+
+            <div class="discounts__block">
+                <div class="discounts__name">День рождения</div>
+                <img src="../img/profile/profile__fon.png" alt="картинка праздника" class="discounts__image">
+                <div class="discounts__text">При проведении копроратива от 20 человек и более предоставляется скидка на
+                    15%</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

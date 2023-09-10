@@ -1,0 +1,20 @@
+@media (max-width: 480px) {
+    .logo__text {
+        font-size: 30px;
+    }
+
+    .gallery {
+        height: auto;
+    }
+
+    .test__price {
+        width: 150px;
+        height: 140px;
+    }
+
+    .new__order {
+        font-size: 25px;
+        /* font-weight: 0; */
+        line-height: normal;
+    }
+}
