@@ -134,6 +134,14 @@ input {
     text-align: center;
 }
 
+.block__price p {
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .new__order {
     width: 100%;
     text-align: center;
@@ -278,25 +286,81 @@ input {
 
 
 
-
-
-
-
 /* Корзина */
 
 .basket__main {
-    
+    width: 80%;
+}
+
+.basket__box {
+    width: 80%;
+    margin-left: 20%;
 }
 
 .basket__name {
     color: #000;
-    font-size: 61px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;  
+}
+
+.basket__line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #000;
+    font-size: 110px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-align: center;
 }
 
+
+.basket__name {
+    display: flex;
+    width: 60%;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.basket__price {
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; 
+    
+}
+
+.name__first {
+    color: #000;
+    font-size: 110px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.price__first {
+    color: #000;
+    font-size: 110px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.total__price {
+    color: #000;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    text-align: end;
+}
 
 
 /* Профиль */
@@ -602,3 +666,111 @@ input {
     margin-top: 100px;
 }
 
+/* reviews - отзывы */
+
+.reviews__main {
+
+}
+
+.reviews__main > p {
+    color: #000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    text-align: center;
+}
+
+.reviews__block {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews__name {
+    color: #000;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.reviews__events {
+    color: #000;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.reviews__text {
+    color: #000;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.reviews__date_star {
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    display: flex;
+    justify-content: end;
+}
+
+/* Мероприятие на заказ */
+
+.main__event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__event > p {
+    color: #000;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.event__block {
+    display: flex;
+    flex-direction: row;
+}
+
+.event__name {
+    color: #000;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Оформление заказа */
+
+.decor__main {
+    width: 100%;
+}
+
+.decor__main > p {
+    color: #000;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.decor__label {
+    display: flex;
+    flex-direction: row;
+}
+
+.decor__name {
+
+}
