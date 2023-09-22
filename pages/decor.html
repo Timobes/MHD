@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/media.css">
-    <title>Мероприятие под заказ</title>
+    <title>Оформление заказа</title>
 </head>
 
     <body>
@@ -36,20 +36,27 @@
         
         <div class="decor__main">
             <p>Оформление заказа</p>
+
             <div class="decor__label">
                 <div class="decor__name">Ваше ФИО:</div>
-                <input type="text" placeholder="">
+                <input type="text" placeholder="" class="dec__inp">
             </div>
 
             <div class="decor__label">
                 <div class="decor__name">Номер телефона:</div>
-                <input type="text" placeholder="">
+                <input type="tel" placeholder="" class="dec__inp">
             </div>
 
             <div class="payment">
+                <input type="radio" name="Наличный расчет" id="lab1" >
                 <p></p>
-                <input type="radio" name="" id=""><p>Наличный расчет</p>
-                <input type="radio" name="" id=""><p>Банковская карта</p>
+                <label for="lab1">Наличный расчет</label>
+            </div>
+
+            <div class="payment">
+                <input type="radio" name="Наличный расчет" id="lab2" >
+                <p></p>
+                <label for="lab2">Банковская карта</label>
             </div>
 
             <a href="">

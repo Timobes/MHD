@@ -9,6 +9,18 @@ body {
 a {
     text-decoration: none;
 }
+
+input {
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+}
+
+img {
+    cursor: pointer;
+}
 /* 
 input {
     width: 30px;
@@ -362,6 +374,11 @@ input {
     text-align: end;
 }
 
+.decor__a {
+    display: flex;
+    justify-content: center;
+}
+
 
 /* Профиль */
 
@@ -632,9 +649,18 @@ input {
 
 .additional {
     display: flex;
+    flex-direction: column;
+    
 }
 
 .additional__block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 60%;
+
+
     color: #000;
     font-size: 45px;
     font-style: normal;
@@ -650,17 +676,20 @@ input {
     line-height: 50px; 
 }
 
-.additional__name {
-    margin-right: 20px;
+.additional__text {
+    display: flex;
 }
 
 .additional__price {
-    margin-right: 20px;
+    display: flex;
+    align-items: center;    
 }
 
-.additional__inp {
-    margin-right: 20px;
+.inp__add {
+    width: 30px;
+    height: 30px;
 }
+
 
 .price {
     margin-top: 100px;
@@ -730,6 +759,14 @@ input {
     align-items: center;
 }
 
+.event__block__all {
+    color: #b33737;
+
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+
 .main__event > p {
     color: #000;
     font-size: 80px;
@@ -742,6 +779,7 @@ input {
 .event__block {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .event__name {
@@ -750,6 +788,21 @@ input {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+
+    display: flex;
+}
+
+.event__inp {
+    display: flex;
+
+    width: 600px;
+    height: 100px;
+    border-radius: 20px;
+    background: #D1D3D4;
+    border: 1px solid #D1D3D4;
+    
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 /* Оформление заказа */
@@ -769,8 +822,50 @@ input {
 .decor__label {
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+
+.decor__name {
+    color: #000;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.dec__inp {
+    width: 600px;
+    height: 100px;
+    border-radius: 20px;
+    background: #D1D3D4;
+
+    border: 1px solid #D1D3D4;
+    
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* Оплата */
+
+.decor__main {
+
+}
+
+.decor__label {
+    display: flex;
+
 }
 
 .decor__name {
 
 }
+
+.payment {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
